@@ -1,0 +1,145 @@
+//QUESTION NO-1:-
+
+//The class Movie is stated below. An instance of class Movie represents a film.
+//This class has the following three properties:
+
+//=>title, which is a String representing the title of the movie.
+//=>studio, which is a String representing the studio that made the movie.
+//=>rating, which is a String representing the rating of the movie (i.e. PG­13, R, etc)
+
+a) Write a constructor for the class Movie, which takes a String representing the title of the movie,
+   a String representing the studio, and a String representing the rating as its arguments,
+   and sets the respective class properties to these values.
+
+
+OUTPUT:-
+
+Movie {title: 'TITANIC', studio: '7G STUDIO', rating: 'PG-13'}
+rating: "PG-13"
+studio: "7G STUDIO"
+title: "TITANIC"
+
+Movie {title: 'BULLET TRAIN', studio: 'THE NEXT BIG THING', rating: 'PG'}
+rating: "PG"
+studio: "THE NEXT BIG THING"
+title: "BULLET TRAIN"
+
+Movie {title: 'AVATAR', studio: 'MASTER MOTION PICTURES', rating: 'PG'}
+rating: "PG"
+studio: "MASTER MOTION PICTURES"
+title: "AVATAR"
+
+Movie {title: 'CASINO ROYALE', studio: 'EON PRODUCTIONS', rating: 'PG-13'}
+rating: "PG-13"
+studio: "EON PRODUCTIONS"
+title: "CASINO ROYALE"
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+ b) The constructor for the class Movie will set the class property rating to "PG" as default
+    when no rating is provided.
+
+
+OUTPUT:-
+
+
+Movie {title: 'BULLET TRAIN', studio: 'THE NEXT BIG THING', rating: 'PG'}
+rating: "PG"
+studio: "THE NEXT BIG THING"
+title: "BULLET TRAIN"
+
+Movie {title: 'AVATAR', studio: 'MASTER MOTION PICTURES', rating: 'PG'}
+rating: "PG"
+studio: "MASTER MOTION PICTURES"
+title: "AVATAR"
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+c) Write a method getPG, which takes an array of base type Movie as its argument,
+   and returns a new array of only those movies in the input array with a rating of "PG".
+   You may assume the input array is full of Movie instances. The returned array need not be full.
+
+
+OUTPUT:-
+
+
+
+Movie {title: 'BULLET TRAIN', studio: 'THE NEXT BIG THING', rating: 'PG'}
+rating: "PG"
+studio: "THE NEXT BIG THING"
+title: "BULLET TRAIN"
+
+Movie {title: 'AVATAR', studio: 'MASTER MOTION PICTURES', rating: 'PG'}
+rating: "PG"
+studio: "MASTER MOTION PICTURES"
+title: "AVATAR"
+
+-----------------------------------------------------------------------------------------------------------------
+
+d) Write a piece of code that creates an instance of the class Movie with the title “Casino Royale”,
+   the studio “Eon Productions”, and the rating “PG­13”.
+
+
+OUTPUT:-
+
+Movie {title: 'CASINO ROYALE', studio: 'EON PRODUCTIONS', rating: 'PG-13'}
+rating: "PG-13"
+studio: "EON PRODUCTIONS"
+title: "CASINO ROYALE"
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+QUESTION NO-2:-
+
+=>Circle - Class
+=>Convert the UML diagram to Typescript class. - use number for double.
+
+
+OUTPUT:-
+
+//GET-THE RADIUS OF THE CIRCLE IS 1
+//GET-THE COLOR OF THE CIRCLE IS RED
+//GET-THE Circle IS [radius=1, AND color=RED]
+//GET-THE AREA OF THE CIRCLE IS 3.141592653589793
+//GET-THE CIRCUMFERENCE OF THE CIRCLE IS 6.283185307179586
+//SET-3
+//SET-BLUE
+
+
+------------------------------------------------------------------------------------------------------------------
+
+QUESTION NO-3:-
+
+=>Write a “person” class to hold all the details:-
+
+OUTPUT:-
+
+Person {NAME: 'ARUN PRAVEEN R', AGE: 25, NUMBER: 8344236645,
+        QUALIFICATION: 'BE-COMPUTER SCIENCE AND ENGINEERING', EMAIL_ID: 'arunfbfb78@gmail.com', …}
+
+NAME: "ARUN PRAVEEN R"
+AGE: 25
+NUMBER: 8344236645
+QUALIFICATION: "BE-COMPUTER SCIENCE AND ENGINEERING"
+EMAIL_ID: "arunfbfb78@gmail.com"
+COURSE: "MERN STACK DEVELOPER"
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+QUESTION NO-4:-
+
+=>write a class to calculate the uber price:-
+
+OUTPUT:-
+
+THE FARE YOU HAVE TO PAY IS RS. 217.5
+
+
+----------------------------------------------------------------------------------------------------------------------
